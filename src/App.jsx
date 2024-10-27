@@ -1,10 +1,10 @@
 import './App.css';
 import Form from './components/Form';
 import Signup from './components/Signup';
-import UserHome from './components/UserHome';
-import AdminHome from './components/AdminHome';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'; 
 import { useState } from 'react';
+import UserHome from './components/UserHome';
+import AdminHome from './components/AdminHome';
 
 function App() {
   const [user, setUser] = useState(null);
