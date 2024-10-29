@@ -17,7 +17,7 @@ export default function Signup({ role }) {
   const handleSubmit = async (event) => {
     event.preventDefault();
         try {
-            const response = await fetch('https://back-promocio.vercel.app/user/Signup', {
+            const response = await fetch('https://back-promocio.vercel.app/routes/controllers/user/Signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
